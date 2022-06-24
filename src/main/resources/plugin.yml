@@ -1,0 +1,18 @@
+main: org.zertex.cryptolabs.CryptoLabs
+version: '${project.version}'
+api-version: 1.18
+prefix: CLabs
+database: true
+
+name: CryptoLabs
+description: CryptoLabs adds machinery to the game that allows players to collect crypto coins.
+website: https://discord.gg/VQhkKMq8dF
+
+authors: [ xrexy ]
+
+commands:
+  cryptolabs:
+    aliases: [ clabs, cl ]
+    usage: /<command>
+
+#permissions:
